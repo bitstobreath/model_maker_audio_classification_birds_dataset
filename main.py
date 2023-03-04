@@ -1,7 +1,4 @@
-
 import build_data
-# uncomment to build the data
-# build_data.run()
-
-import prepare_zip
-import my_zip
+# build_data.run() # uncomment to build the data
+# import prepare_data # uncomment to prepare zip data
+# import my_zip # uncomment to zip the data

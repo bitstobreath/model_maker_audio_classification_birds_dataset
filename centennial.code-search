@@ -1,0 +1,17 @@
+# Query: centennial
+# ContextLines: 1
+
+3 results - 1 file
+
+audio_classification_local.ipynb:
+   324        "From: https://drive.google.com/u/1/uc?id=1_Ri7zIOGhmJMZAtMRbl10TUwaDj5w3nx&confirm=t&export=download\n",
+   325:       "To: /mnt/c/birds_dataset_large.zip\n",
+   326        "100%|██████████| 5.50G/5.50G [00:59<00:00, 92.7MB/s]\n"
+
+  1145       "text": [
+  1146:       "Test audio path: /mnt/c/dataset/small_birds_dataset/test/chcant2/731641.wav\n",
+  1147        "Original size of the audio data: 289740\n",
+
+  1195       "text": [
+  1196:       "/mnt/c/dataset/small_birds_dataset/test/chcant2/731641.wav\n",
+  1197        "Result of the window ith:  your model class -> score,  (spec class -> score)\n",

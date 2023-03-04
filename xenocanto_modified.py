@@ -3,6 +3,7 @@
 import asyncio
 import json
 import os
+import random
 import shutil
 import sys
 import time
@@ -178,6 +179,11 @@ async def download(filt, num_chunks=4):
 
     # Retrieve the number of recordings to be downloaded
     recordings_num = url_list[0]
+
+    # get 1 out of 1 tracks in url_list[1]
+    # change the (0,1) to (0, n) for 1 in 10 or 1 in 4 urls approximately
+    # random is used to hopefully avoid sampling order biases i.e. getting the first 100 sounds or every 2nd sound
+    url_list[1] = [url for i, url in enumerate(url_list[1]) if random.randrange(0,1) == 0]
 
     # Exit the program if no recordings are found
     if (recordings_num == 0):
