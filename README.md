@@ -3,6 +3,7 @@ Bird Maker Audio Classification Birds Dataset Patch
 
 # Why?
 * One of my classes requested I use Google colab to experiment with audio machine learning
+* https://github.com/tensorflow/tensorflow/issues/59245
 
 # Build Environment
 * Linux Debian Based or Ubuntu on WSL
